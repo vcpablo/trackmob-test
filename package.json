@@ -1,7 +1,7 @@
 {
   "name": "trackmob-test",
   "version": "1.0.0",
-  "description": "A Vue.js sample application for trackmob hiring tesst",
+  "description": "A Vue.js project for Trackmob hiring process",
   "author": "Pablo Veiga <vcpablo@gmail.com>",
   "private": true,
   "scripts": {
@@ -11,8 +11,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "axios": "^0.18.0",
+    "gerador-validador-cpf": "^4.0.0-beta.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-svg-loader": "^0.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -49,12 +59,13 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "sass-resources-loader": "^2.0.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.1",
+    "vue-style-loader": "^3.1.2",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
