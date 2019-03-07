@@ -1,5 +1,6 @@
-# trackmob-test
+# Trackmob Frontend Test
 
+[![Build Status](https://travis-ci.com/vcpablo/trackmob-test.svg?branch=master)](https://travis-ci.com/vcpablo/trackmob-test)
 > A Vue.js sample application for trackmob hiring tesst
 
 ## Build Setup
