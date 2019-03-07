@@ -177,7 +177,7 @@ export default {
       }
 
       this.submitted = true
-      if (this.validate) {
+      if (this.isValid) {
         this.submitting = true
         axios.post(process.env.API_URL, data).then((res) => {
           this.result = 'success'
