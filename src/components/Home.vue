@@ -25,5 +25,30 @@ export default {
 </script>
 
 <style module lang="scss">
-  
+  .mainContainer {
+    background: $main-bg url('../assets/images/background.png') no-repeat right center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+  }
+
+  .secondaryContainer {
+    height: 165vh;
+    display: flex;
+    background-color: $main-bg;
+  }
+
+  .message {
+    width: 40vw;
+    margin-left: 20vw;
+    margin-top: 30vh;
+
+    .title {
+      color: $primary-color;
+    }
+
+    .text {
+      color: $primary-text;
+    }
+  }
 </style>
