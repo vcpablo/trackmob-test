@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "7"
+script:
+ - echo "Deploying..."
+install:
+  - npm install -g firebase-tools
+after_success:
+  - npm run build && firebase deploy --project trackmob-test --token $FIREBASE_TOKEN
+  - echo "Application deployed successfully..."
